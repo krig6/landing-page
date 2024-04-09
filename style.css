@@ -1,13 +1,13 @@
 body {
+  font-family: "Courier New", Courier, monospace;
   margin: 0;
   padding: 0;
-  font-family: "Courier New", Courier, monospace;
 }
 
 ul {
   display: flex;
-  gap: 50px;
   list-style: none;
+  gap: 50px;
   margin: 0;
   padding: 0;
 }
@@ -31,28 +31,29 @@ a {
   margin-bottom: 100px;
   padding: 30px 0;
 }
+
 .hero-logo {
-  font-size: 24px;
   color: #f9faf8;
+  font-size: 24px;
 }
 
 .hero-title {
+  color: #f9faf8;
   font-size: 48px;
   font-weight: 800;
-  color: #f9faf8;
 }
 
 .hero-text {
-  font-size: 18px;
   color: #e5e7eb;
+  font-size: 18px;
   margin-bottom: 15px;
 }
 
 .hero-info {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
   height: 300px;
+  gap: 100px;
 }
 
 .hero-content {
@@ -64,11 +65,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: gray;
   height: 250px;
   width: 1400px;
-  min-width: 340px;
   min-height: 250px;
-  background-color: gray;
+  min-width: 340px;
 }
 
 .signup {
@@ -78,38 +79,38 @@ a {
 .random-info {
   height: 370px;
 }
+
 .random-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #1f2937;
   font-size: 36px;
   font-weight: 900;
-  color: #1f2937;
   margin: 40px 0;
 }
 
 .random-content {
   display: flex;
   justify-content: center;
-
   gap: 48px;
 }
 
 .card-box {
-  border: 4px solid royalblue;
   height: 170px;
   width: 170px;
   margin-bottom: 15px;
   border-radius: 15px;
+  border: 4px solid royalblue;
 }
 
 .card {
-  max-width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   color: gray;
+  max-width: 200px;
 }
 
 .quotes-section {
@@ -122,56 +123,56 @@ a {
 }
 
 .quote-text {
+  color: #1f2937;
+  width: 1000px;
   font-size: 34px;
   font-weight: 100;
   font-style: italic;
-  color: #1f2937;
-  width: 1000px;
   padding: 20px;
 }
 
 .quote-author {
+  color: #1f2937;
   font-size: 24px;
-  margin-top: 50px;
   font-weight: 900;
   font-style: normal;
-  color: #1f2937;
+  margin-top: 50px;
 }
 .cta-container {
-  height: 320px;
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  height: 320px;
 }
 
 .cta-box {
-  background-color: #3882f6;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px;
+  background-color: #3882f6;
   height: 160px;
   width: 1200px;
+  gap: 300px;
   border-radius: 10px;
   padding: 0 50px;
 }
 
 .call-heading {
-  font-size: 22px;
   color: white;
+  font-size: 22px;
   font-weight: 900;
 }
 
 .cta-signup {
-  background-color: #3882f6;
   color: white;
+  background-color: #3882f6;
   border: 1px solid white;
 }
 
 .sign-text {
-  margin-top: 1px;
   font-weight: 100;
+  margin-top: 1px;
 }
 
 button {
@@ -180,9 +181,9 @@ button {
   color: white;
   height: 40px;
   width: 150px;
-  border-radius: 5px;
   font-size: 16px;
   font-weight: 900;
+  border-radius: 5px;
   padding: 1px 20px;
 }
 
@@ -191,8 +192,8 @@ button {
   justify-content: center;
   align-items: center;
   background-color: #1f2937;
-  font-size: 18px;
   color: white;
   height: 100px;
+  font-size: 18px;
   font-weight: 900;
 }
