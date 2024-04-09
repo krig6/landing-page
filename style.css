@@ -72,14 +72,7 @@ a {
 }
 
 .signup {
-  background-color: #3882f6;
-  color: white;
-  font-size: 18px;
-  font-weight: 700;
-  width: 100px;
   border: 1px solid #3882f6;
-  border-radius: 8px;
-  padding: 5px;
 }
 
 .random-info {
@@ -124,7 +117,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
-  height: 350px;
+  height: 370px;
   padding: 20px;
 }
 
@@ -143,4 +136,47 @@ a {
   font-weight: 900;
   font-style: normal;
   color: #1f2937;
+}
+.cta-container {
+  height: 320px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  height: 160px;
+  width: 1200px;
+  border-radius: 10px;
+  padding: 0 50px;
+}
+
+.call-heading {
+  font-size: 22px;
+  color: white;
+  font-weight: 900;
+}
+
+.cta-signup {
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid white;
+}
+
+button {
+  cursor: pointer;
+  background-color: #3882f6;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 1px 20px;
 }
