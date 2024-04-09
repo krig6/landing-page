@@ -36,6 +36,10 @@ a {
   font-weight: 800;
 }
 
+.hero-text {
+  font-size: 18px;
+}
+
 .hero-info {
   display: flex;
   justify-content: space-between;
