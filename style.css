@@ -14,49 +14,70 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .hero {
   background-color: #1f2937;
   color: white;
-  height: 450px;
-  padding: 0 220px 0 220px;
+  height: 550px;
+  padding: 0 250px 0 250px;
 }
 
 .hero-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   padding: 30px 0;
+}
+.hero-logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .hero-title {
   font-size: 48px;
   font-weight: 800;
+  color: #f9faf8;
 }
 
 .hero-text {
   font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 15px;
 }
 
 .hero-info {
   display: flex;
   justify-content: space-between;
+  gap: 100px;
+  height: 300px;
+}
+
+.hero-content {
+  min-height: 200px;
+  min-width: 320px;
 }
 
 .hero-placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  width: 400px;
+  height: 250px;
+  width: 1400px;
+  min-width: 340px;
+  min-height: 250px;
   background-color: gray;
 }
 
 .signup {
   background-color: royalblue;
   color: white;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100px;
   border: 1px solid royalblue;
   border-radius: 8px;
+  padding: 5px;
 }
