@@ -72,12 +72,12 @@ a {
 }
 
 .signup {
-  background-color: royalblue;
+  background-color: #3882f6;
   color: white;
   font-size: 18px;
   font-weight: 700;
   width: 100px;
-  border: 1px solid royalblue;
+  border: 1px solid #3882f6;
   border-radius: 8px;
   padding: 5px;
 }
