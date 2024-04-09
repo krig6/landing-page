@@ -4,20 +4,6 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-.hero {
-  background-color: #1f2937;
-  color: white;
-  height: 450px;
-  padding: 0 220px 0 220px;
-}
-
-.hero-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 200px;
-  padding: 30px 0;
-}
-
 ul {
   display: flex;
   gap: 50px;
@@ -31,12 +17,25 @@ a {
   color: white;
 }
 
-.signup {
-  background-color: royalblue;
+.hero {
+  background-color: #1f2937;
   color: white;
-  border: 1px solid royalblue;
-  border-radius: 8px;
+  height: 450px;
+  padding: 0 220px 0 220px;
 }
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  padding: 30px 0;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+}
+
 .hero-info {
   display: flex;
   justify-content: space-between;
@@ -49,4 +48,11 @@ a {
   height: 100px;
   width: 400px;
   background-color: gray;
+}
+
+.signup {
+  background-color: royalblue;
+  color: white;
+  border: 1px solid royalblue;
+  border-radius: 8px;
 }
